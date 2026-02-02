@@ -100,7 +100,9 @@ while True:
     menu()
     pilihan = input("Pilih menu: ")
 
-    if pilihan == "1":
+    if pilihan == "KUDA":
+        print("🐴")
+    elif pilihan == "1":
         tambah_pemasukan()
     elif pilihan == "2":
         tambah_pengeluaran()
